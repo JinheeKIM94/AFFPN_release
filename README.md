@@ -8,7 +8,7 @@ IEEE Signal Processing Letters
 When using this code in your research, please cite the following paper: Jinhee Kim and Wonjun Kim, **"Attentive Feedback Feature Pyramid for Shadow Detection,"** **IEEE Signal Processing Letters** (Accepted)
 
 ### Model architecture
-![network.pdf](https://github.com/JinheeKIM94/AFFPN_release/files/5437483/network.pdf)
+![network.pdf](https://github.com/JinheeKIM94/AFFPN_release/files/5437483/network.png)
 
 ### Experimental results with state-of-the-arts methods
 
