@@ -40,8 +40,8 @@ You can download test results of our AFFPN Model
 
 ### Note 
 1. You should place the weights of ResNext101 in the ./resnext/
-2. You should place the weights in the ./trained/[dataset_name]/  
-3. Dataset is also placed in the ./dataset directory  (i.e., ./data/GoPro_Large)
+2. You should place the weights of AFFPN in the ./trained/[dataset_name]/  
+3. Dataset is also should placed in the ./dataset directory  
 4. Test results are saved in the ./output/[dataset_name]/
 5. You can adjust the detailed settings in config.py
 
