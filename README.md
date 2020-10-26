@@ -17,3 +17,36 @@ Several results of shadow detection based on ISTD dataset. 1st column: shadow im
 
 ![fig2](https://user-images.githubusercontent.com/60129726/80562585-1213d700-8a23-11ea-86e5-a75519bc322e.png)
 Several results of shadow detection based on SBU and UCF datasets. 1st column: shadow images. 2nd-8th columns: detection results by Hu *et al.*, Chen *et al.*, Le *et al.*, Hu *et al.*, Zhu *et al.*, Zheng *et al.*, and the proposed method. 9th column: ground truth
+
+### Requirements
+
+* Python >= 3.5
+* Pytorch 1.3.1
+* Ubuntu 16.04
+* CUDA 9.2 (if CUDA available)
+* cuDNN (if CUDA available)
+
+### Pretrained models
+You can download pretrained AFFPN model
+* [Trained with AFFPN](https://drive.google.com/drive/folders/1cm4CmxCBoqVJlom5WCuL-mvLyf4-Jd_m?usp=sharing)
+
+### Test result
+You can download test results of our AFFPN Model
+* [Test resut with AFFPN](https://drive.google.com/drive/folders/1yRrbVLmDZPY6VBG7IfSoXgbiQqrEwNVI?usp=sharing)
+
+### Note 
+1. you should place the weights in the ./trained/[dataset_name]/  
+2. Dataset is also placed in the ./dataset directory  (i.e., ./data/GoPro_Large)
+3. test results are saved in the ./output/[dataset_name]/
+4. you can adjust the detailed settings in config.py
+
+### Training
+* Attentive Feedback Feature Pyramid for Shadow Detection network training
+```bash
+python train_AFFPN.py
+```
+## Testing 
+* Attentive Feedback Feature Pyramid for Shadow Detection  network testing
+```bash
+python test_AFFPN.py
+```
