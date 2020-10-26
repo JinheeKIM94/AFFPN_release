@@ -35,10 +35,10 @@ You can download test results of our AFFPN Model
 * [Test resut with AFFPN](https://drive.google.com/drive/folders/1yRrbVLmDZPY6VBG7IfSoXgbiQqrEwNVI?usp=sharing)
 
 ### Note 
-1. you should place the weights in the ./trained/[dataset_name]/  
+1. You should place the weights in the ./trained/[dataset_name]/  
 2. Dataset is also placed in the ./dataset directory  (i.e., ./data/GoPro_Large)
-3. test results are saved in the ./output/[dataset_name]/
-4. you can adjust the detailed settings in config.py
+3. Test results are saved in the ./output/[dataset_name]/
+4. You can adjust the detailed settings in config.py
 
 ### Training
 * Attentive Feedback Feature Pyramid for Shadow Detection network training
