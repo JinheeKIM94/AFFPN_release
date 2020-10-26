@@ -1,6 +1,6 @@
 # Attentive Feedback Feature Pyramid for Shadow Detection 
 
-This repository is a Pytorch implementation of the paper "Attentive Feedback Feature Pyramid for Shadow Detection"
+This repository is a Pytorch implementation of the paper **"Attentive Feedback Feature Pyramid for Shadow Detection"**
 
 Jinhee Kim and [Wonjun Kim](https://sites.google.com/site/kudcvlab)  
 IEEE Signal Processing Letters
