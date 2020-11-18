@@ -5,8 +5,19 @@ This repository is a Pytorch implementation of the paper [**"Attentive Feedback 
 Jinhee Kim and [Wonjun Kim](https://sites.google.com/view/dcvl)  
 IEEE Signal Processing Letters
 
-When using this code in your research, please cite the following paper: Jinhee Kim and Wonjun Kim, **"Attentive Feedback Feature Pyramid for Shadow Detection,"** **IEEE Signal Processing Letters** vol. 27, pp. 1964-1968, Oct. 2020.
+When using this code in your research, please cite the following paper: 
+Jinhee Kim and Wonjun Kim, **"Attentive Feedback Feature Pyramid for Shadow Detection,"** **IEEE Signal Processing Letters** vol. 27, pp. 1964-1968, Oct. 2020.
 
+```  
+@ARTICLE{9242301,
+author={J. {Kim} and W. {Kim}},
+journal={IEEE Signal Processing Letters}, 
+title={Attentive Feedback Feature Pyramid Network for Shadow Detection}, 
+year={2020},
+volume={27},
+number={},
+pages={1964-1968},}
+```  
 ### Model architecture
 ![network](https://user-images.githubusercontent.com/60129726/97146672-944f3f00-17ab-11eb-9421-413bb2840c00.png)
 
