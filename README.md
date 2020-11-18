@@ -6,6 +6,7 @@ Jinhee Kim and [Wonjun Kim](https://sites.google.com/view/dcvl)
 IEEE Signal Processing Letters
 
 When using this code in your research, please cite the following paper: 
+
 Jinhee Kim and Wonjun Kim, **"Attentive Feedback Feature Pyramid for Shadow Detection,"** **IEEE Signal Processing Letters** vol. 27, pp. 1964-1968, Oct. 2020.
 
 ```  
